@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="390574d4-e87e-4198-ab79-ff1a7459ecd7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/biblioteka/Biblioteka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/biblioteka/Biblioteka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/biblioteka/biblioteka/BibliotekaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/biblioteka/BibliotekaTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,10 +23,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/biblioteka/Biblioteka.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
+            <state relative-caret-position="1649">
               <caret line="97" column="34" lean-forward="true" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -45,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/biblioteka/biblioteka/BibliotekaTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/biblioteka/BibliotekaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="62" column="66" selection-start-line="62" selection-start-column="66" selection-end-line="62" selection-end-column="66" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,9 +102,9 @@
         <option value="$PROJECT_DIR$/src/main/java/biblioteka/Status.java" />
         <option value="$PROJECT_DIR$/src/main/java/biblioteka/biblioteka/Biblioteka.java" />
         <option value="$PROJECT_DIR$/src/main/java/biblioteka/Pozycja.java" />
-        <option value="$PROJECT_DIR$/src/test/java/biblioteka/BibliotekaTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/biblioteka/Biblioteka.java" />
         <option value="$PROJECT_DIR$/src/test/java/biblioteka/biblioteka/BibliotekaTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/biblioteka/BibliotekaTest.java" />
       </list>
     </option>
   </component>
@@ -169,14 +167,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="bibliotekaa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bibliotekaa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="biblioteka" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -184,11 +174,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553075870945" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553076271205" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/biblioteka" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -219,8 +210,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BibliotekaTest">
-    <configuration name="Biblioteka (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Biblioteka (1)">
+    <configuration name="Biblioteka" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="biblioteka.biblioteka.Biblioteka" />
+      <module name="bibliotekaa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="biblioteka.biblioteka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Biblioteka" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="biblioteka.Biblioteka" />
       <module name="bibliotekaa" />
       <extension name="coverage">
@@ -233,15 +237,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Biblioteka" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="biblioteka.biblioteka.Biblioteka" />
+    <configuration name="BibliotekaTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bibliotekaa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="biblioteka.biblioteka.*" />
+          <option name="PATTERN" value="biblioteka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="biblioteka" />
+      <option name="MAIN_CLASS_NAME" value="biblioteka.BibliotekaTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -262,8 +267,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BibliotekaTest" />
         <item itemvalue="Application.Biblioteka (1)" />
+        <item itemvalue="JUnit.BibliotekaTest (1)" />
+        <item itemvalue="JUnit.BibliotekaTest" />
         <item itemvalue="Application.Biblioteka" />
       </list>
     </recent_temporary>
@@ -282,12 +288,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BibliotekaTest - 2019.03.20 at 10h 18m 25s.xml">
-      <configuration name="BibliotekaTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BibliotekaTest - 2019.03.20 at 10h 18m 57s.xml">
-      <configuration name="BibliotekaTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BibliotekaTest - 2019.03.20 at 10h 23m 18s.xml">
       <configuration name="BibliotekaTest" configurationId="JUnit" />
     </history-entry>
@@ -312,12 +312,18 @@
     <history-entry file="BibliotekaTest - 2019.03.20 at 10h 48m 04s.xml">
       <configuration name="BibliotekaTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BibliotekaTest - 2019.03.20 at 10h 55m 48s.xml">
+      <configuration name="BibliotekaTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BibliotekaTest - 2019.03.20 at 10h 56m 49s.xml">
+      <configuration name="BibliotekaTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2064" height="1128" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25748503" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25748503" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -327,7 +333,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32964823" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32964823" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32964823" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -423,9 +429,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/biblioteka/BibliotekaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/biblioteka/Biblioteka.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
+        <state relative-caret-position="1649">
           <caret line="97" column="34" lean-forward="true" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -437,16 +453,6 @@
             <element signature="e#813#814#0" expanded="true" />
             <element signature="e#1617#1618#0" expanded="true" />
             <element signature="e#1659#1660#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/biblioteka/biblioteka/BibliotekaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="66" selection-start-line="62" selection-start-column="66" selection-end-line="62" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

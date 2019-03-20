@@ -1,6 +1,5 @@
-package biblioteka.biblioteka;
+package biblioteka;
 
-import biblioteka.*;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
