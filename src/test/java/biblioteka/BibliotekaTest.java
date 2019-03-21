@@ -11,7 +11,7 @@ public class BibliotekaTest {
     public Biblioteka biblioteka;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         this.biblioteka = new Biblioteka();
         this.biblioteka.dodajPozycja(new Pozycja(TypPozycji.KSIAZKA, "Hobbit", "Tolkien"));
         this.biblioteka.dodajPozycja(new Pozycja(TypPozycji.KSIAZKA, "Hobbit2", "Tolkien"));
